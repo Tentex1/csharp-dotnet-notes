@@ -9,7 +9,7 @@ Sıfırdan başlayanlar için adım adım C# ders notları.
   - [Veri Tipleri ve Tip Dönüşümleri](#veri-tipleri-ve-tip-dönüşümleri)
 - [Karar Yapıları ve Döngüler](#karar-yapıları-ve-döngüler)
   - [Koşullu İfadeler (if-else, switch-case)](#koşullu-ifadeler-if-else-switch-case)
-  - [Döngüler (for, foreach, while)](#döngüler-for-while-foreach)
+  - [Döngüler (for, foreach, while)](#-döngüler-for-while-foreach)
 
 ---
 
