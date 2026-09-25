@@ -9,7 +9,7 @@ Sıfırdan başlayanlar için adım adım C# ders notları.
   - [Veri Tipleri ve Tip Dönüşümleri](#veri-tipleri-ve-tip-dönüşümleri)
 - [Karar Yapıları ve Döngüler](#karar-yapıları-ve-döngüler)
   - [Koşullu İfadeler (if-else, switch-case)](#koşullu-ifadeler-if-else-switch-case)
-  - [Döngüler (for, foreach, while)](#döngüler-for-foreach-while)
+  - [Döngüler (for, foreach, while)](#döngüler-for-while-foreach)
 
 ---
 
@@ -274,7 +274,7 @@ switch (gun)
 }
 ```
 
-### 🔄 Döngüler (Loops)
+### 🔄 Döngüler (for, while, foreach)
 Bir kod bloğunu belirli bir sayıda veya bir koşul sağlandığı sürece tekrar çalıştırmak için kullanırız.
 
 #### 1. for Döngüsü
