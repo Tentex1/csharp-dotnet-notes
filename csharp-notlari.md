@@ -6,7 +6,6 @@ Sıfırdan başlayanlar için adım adım C# ders notları.
 - [Giriş: C# ve .NET Mantığı Nedir?](#giriş-c-ve-net-mantığı-nedir)
 - [C# Temelleri](#c-temelleri)
   - [C#'a Giriş, Sözdizimi ve Değişkenler](#ca-giriş-sözdizimi-ve-değişkenler)
-  - [Veri Tipleri ve Tip Dönüşümleri](#veri-tipleri-ve-tip-dönüşümleri)
 - [Karar Yapıları ve Döngüler](#karar-yapıları-ve-döngüler)
   - [Koşullu İfadeler (if-else, switch-case)](#koşullu-ifadeler-if-else-switch-case)
   - [Döngüler (for, foreach, while)](#-döngüler-for-while-foreach)
