@@ -215,6 +215,8 @@ double oran = double.Parse("12,5");
 | `\|\|` | VEYA (OR) | Koşullardan en az biri doğru olmalı. |
 | `!` | DEĞİL (NOT) | Durumu tersine çevirir. |
 
+# Karar Yapıları ve Döngüler
+
 ### 🔀 Koşullu İfadeler (if-else, switch-case)
 
 #### 🔴 if - else Blok Yapısı
