@@ -80,7 +80,7 @@ namespace IlkProjem
 ```
 
 ### 🔴 C# Sözdizimi (Syntax) Kuralları
-Kural 1: Komut Sonu Noktalı Virgül (;)
+#### Kural 1: Komut Sonu Noktalı Virgül (;)
 C# dilinde her ifade/komut noktalı virgül ile biter. Eklemezseniz derleyici hata verir (CS1002).
 
 
@@ -92,7 +92,7 @@ Console.WriteLine("Hata alırsın")
 Console.WriteLine("Doğru kullanım");
 ```
 
-Kural 2: Büyük/Küçük Harf Duyarlılığı (Case Sensitivity)
+#### Kural 2: Büyük/Küçük Harf Duyarlılığı (Case Sensitivity)
 C# dilinde sayi, Sayi ve SAYI tamamen farklı değişkenlerdir.
 
 
@@ -104,7 +104,7 @@ Console.WriteLine(sayi); // 10 basar
 Console.WriteLine(Sayi); // 20 basar
 ```
 
-Kural 3: Bloklar {} Arasına Yazılır
+#### Kural 3: Bloklar {} Arasına Yazılır
 Kod grupları, fonksiyonlar ve sınıflar süslü parantezler içine alınır.
 
 
@@ -148,7 +148,7 @@ bool ogrenciMi = true;
 | **char** | Tek bir karakter (Tek tırnak) | 2 byte | `'A'` |
 | **bool** | Mantıksal durum (`true`/`false`) | 1 byte | `true` |
 
-🎨 Konsol Girdi / Çıktı İşlemleri
+#### 🎨 Konsol Girdi / Çıktı İşlemleri
 1. Ekrana Yazdırma (Console.Write vs Console.WriteLine)
 
 
@@ -173,7 +173,7 @@ string kullaniciAdi = Console.ReadLine();
 Console.WriteLine("Hoş geldin, " + kullaniciAdi + "!");
 ```
 
-📐 Tip Dönüşümleri (Type Casting)
+#### 📐 Tip Dönüşümleri (Type Casting)
 Kullanıcıdan alınan veri her zaman string olduğundan, sayısal işlemler yapabilmek için bunu int veya double gibi tiplere dönüştürmemiz gerekir.
 1. Convert Sınıfı Kullanımı
 
@@ -199,6 +199,7 @@ int yas = int.Parse(metin);
 double oran = double.Parse("12,5");
 ```
 
+#### 🔍 Karşılaştırma Operatörleri
 | Operatör | Anlamı | Örnek |
 | :---: | :--- | :--- |
 | `==` | Eşit mi? | `x == y` |
@@ -208,13 +209,16 @@ double oran = double.Parse("12,5");
 | `>=` | Büyük veya eşit mi? | `x >= y` |
 | `<=` | Küçük veya eşit mi? | `x <= y` |
 
+#### 🧠 Mantıksal Operatörler
+| Operatör | Mantıksal Karşılığı | Açıklama |
+| :---: | :--- | :--- |
+| `&&` | VE (AND) | Her iki koşul da doğru olmalı. |
+| `\|\|` | VEYA (OR) | Koşullardan en az biri doğru olmalı. |
+| `!` | DEĞİL (NOT) | Durumu tersine çevirir. |
 
-#### Mantıksal Operatörler
-&& (VE / AND): Her iki koşul da doğru olmalı.
-|| (VEYA / OR): Koşullardan en az biri doğru olmalı.
-! (DEĞİL / NOT): Durumu tersine çevirir.
+### 🔀 Koşullu İfadeler (if-else, switch-case)
 
-### 🔴 if - else Blok Yapısı
+#### 🔴 if - else Blok Yapısı
 
 
 ```csharp
@@ -235,7 +239,7 @@ else
 }
 ```
 
-### 🔀 switch - case Yapısı
+#### 🔀 switch - case Yapısı
 Belirli ve sabit değerlere göre dallanma yaparken if-else yerine tercih edilir.
 
 
