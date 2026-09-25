@@ -7,7 +7,7 @@ Sıfırdan başlayanlar için adım adım C# ders notları.
 - [C# Temelleri](#c-temelleri)
   - [C#'a Giriş, Sözdizimi ve Değişkenler](#ca-giriş-sözdizimi-ve-değişkenler)
 - [Karar Yapıları ve Döngüler](#karar-yapıları-ve-döngüler)
-  - [Koşullu İfadeler (if-else, switch-case)](#-koşullu-ifadeler-if-else-switch-case)
+  - [Koşullu İfadeler (if-else, switch-case)](#-koşullu-i̇fadeler-if-else-switch-case)
   - [Döngüler (for, while, foreach)](#-döngüler-for-while-foreach)
 
 ---
